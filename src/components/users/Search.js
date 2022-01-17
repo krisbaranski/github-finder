@@ -5,11 +5,13 @@ export class Search extends Component {
     text: "",
   };
 
-  onChange = (e) => this.setState({ [e.target.name]: e.target.value });
-
   onSubmit = (e) => {
     e.preventDefault();
+    this.props.searchUsers(this.state.text);
+    this.setState({ text: "" });
   };
+
+  onChange = (e) => this.setState({ [e.target.name]: e.target.value });
 
   render() {
     return (
