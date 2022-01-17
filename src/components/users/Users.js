@@ -1,7 +1,7 @@
 import React from "react";
 import UserItem from "./UserItem";
 import Spinner from "../layout/Spinner";
-import propTypes from "prop-types";
+import PropTypes from "prop-types";
 
 const Users = ({ users, loading }) => {
   if (loading) {
@@ -18,8 +18,8 @@ const Users = ({ users, loading }) => {
 };
 
 Users.propTypes = {
-  users: propTypes.array.isRequired,
-  loading: propTypes.bool.isRequired,
+  users: PropTypes.array.isRequired,
+  loading: PropTypes.bool.isRequired,
 };
 
 const userStyle = {
