@@ -1,6 +1,6 @@
 {
-  "name": "github-finder",
   "homepage": "http://krisbaranski.github.io/github-finder/",
+  "name": "github-finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,11 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
+  },
+  "description": "## React App fro searching Github users",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisbaranski/github-finder.git"
   }
 }
