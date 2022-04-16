@@ -24,7 +24,7 @@ const App = () => {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/user/:login" component={User} />
-                {/* <Route component={NotFound} /> */}
+                <Route component={NotFound} />
               </Switch>
             </div>
           </div>
@@ -35,3 +35,4 @@ const App = () => {
 };
 
 export default App;
+a;
