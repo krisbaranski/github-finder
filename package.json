@@ -1,6 +1,6 @@
 {
   "homepage": "https://krisbaranski.github.io/github-finder/",
-  "name": "github-finder",
+  "name": "Github Finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
